@@ -1,0 +1,20 @@
+{
+  "name": "bpmn-js-move-to-subprocess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve ./demo/index.html --dist-dir demo/dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.8.3",
+    "bpmn-js": "^11.1.1",
+    "eslint": "^8.32.0",
+    "eslint-config-google": "^0.14.0",
+    "parcel": "^2.8.3"
+  }
+}

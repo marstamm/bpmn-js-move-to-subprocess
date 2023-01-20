@@ -1,0 +1,6 @@
+{
+  "extends": "@parcel/config-default",
+  "transformers": {
+    "*.{bpmn,dmn,xml}": ["@parcel/transformer-inline-string"]
+  }
+}
