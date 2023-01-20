@@ -1,14 +1,14 @@
 {
   "name": "bpmn-js-move-to-subprocess",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": "A bpmn-js extension to move selected elements to a subprocess",
   "main": "index.js",
   "scripts": {
     "start": "parcel serve ./demo/index.html --dist-dir demo/dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Martin Stamm <github@martin-stamm.de>",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-inline-string": "^2.8.3",
@@ -17,5 +17,9 @@
     "eslint": "^8.32.0",
     "eslint-config-google": "^0.14.0",
     "parcel": "^2.8.3"
+  },
+  "peerDependencies": {
+    "bpmn-js": "*",
+    "diagram-js": "*"
   }
 }
