@@ -1,6 +1,6 @@
 {
   "name": "bpmn-js-move-to-subprocess",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A bpmn-js extension to move selected elements to a subprocess",
   "main": "index.js",
   "files": [
