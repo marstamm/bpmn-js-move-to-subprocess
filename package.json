@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "A bpmn-js extension to move selected elements to a subprocess",
   "main": "index.js",
+  "files": [
+    "lib/"
+  ],
   "scripts": {
     "start": "parcel serve ./demo/index.html --dist-dir demo/dist",
     "test": "echo \"Error: no test specified\" && exit 1"
