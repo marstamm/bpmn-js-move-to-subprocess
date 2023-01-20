@@ -10,11 +10,12 @@
     "lib/"
   ],
   "repository": {
-		"type": "git",
-		"url": "https://github.com/marstamm/bpmn-js-move-to-subprocess"
-	},
+    "type": "git",
+    "url": "https://github.com/marstamm/bpmn-js-move-to-subprocess"
+  },
   "scripts": {
     "build:demo": "parcel build ./demo/index.html --dist-dir demo/dist --public-url . --no-optimize",
+    "build:modelerExtension": "parcel build ./modeler-extension/client.js --dist-dir ./modeler-extension/dist --no-optimize",
     "start": "parcel serve ./demo/index.html --dist-dir demo/dist",
     "test": "echo \"Error: no test specified\""
   },
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@parcel/transformer-inline-string": "^2.8.3",
     "bpmn-js": "^11.1.1",
+    "camunda-modeler-plugin-helpers": "^5.1.0",
     "diagram-js": "^11.5.0",
     "eslint": "^8.32.0",
     "eslint-config-google": "^0.14.0",

@@ -1,0 +1,29 @@
+name: Build Modeler Extension
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build and Publish
+    steps:
+      - name: git-checkout
+        uses: actions/checkout@v2
+
+      - name: Install all dependencies
+        run: npm ci
+
+      - name: Build Demo
+        run: npm run build:modelerExtension  # The build command of your project
+    
+      - name: Publish
+        uses: s0/git-publish-subdir-action@399aab378450f99b7de6767f62b0d1dbfcb58b53
+        env:
+          REPO: self
+          BRANCH: modeler-extension
+          FOLDER: modeler-extension
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
+          MESSAGE: "Build: ({sha}) {msg}" # The commit message
