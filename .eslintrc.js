@@ -1,3 +1,5 @@
+/* eslint-env node */
+
 module.exports = {
   'env': {
     'browser': true,
@@ -5,9 +7,6 @@ module.exports = {
   },
   'extends': 'google',
   'overrides': [
-    // {
-    //   'require-jsdoc': "off"
-    // }
   ],
   'parserOptions': {
     'ecmaVersion': 'latest',
