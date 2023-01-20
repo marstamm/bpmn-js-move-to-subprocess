@@ -5,11 +5,16 @@ module.exports = {
   },
   'extends': 'google',
   'overrides': [
+    // {
+    //   'require-jsdoc': "off"
+    // }
   ],
   'parserOptions': {
     'ecmaVersion': 'latest',
     'sourceType': 'module',
   },
   'rules': {
+    'require-jsdoc': 0,
+    'no-undef': 'error',
   },
 };
