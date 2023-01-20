@@ -6,6 +6,10 @@
   "files": [
     "lib/"
   ],
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/marstamm/bpmn-js-move-to-subprocess"
+	},
   "scripts": {
     "start": "parcel serve ./demo/index.html --dist-dir demo/dist",
     "test": "echo \"Error: no test specified\""
