@@ -14,7 +14,7 @@
 		"url": "https://github.com/marstamm/bpmn-js-move-to-subprocess"
 	},
   "scripts": {
-    "build:demo": "parcel build ./demo/index.html --dist-dir demo/dist --public-url .",
+    "build:demo": "parcel build ./demo/index.html --dist-dir demo/dist --public-url . --no-optimize",
     "start": "parcel serve ./demo/index.html --dist-dir demo/dist",
     "test": "echo \"Error: no test specified\""
   },
