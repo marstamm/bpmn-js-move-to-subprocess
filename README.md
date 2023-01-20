@@ -8,6 +8,8 @@ into a subprocess.
 The option is only available when the selected elements have a maximum of one
 incoming and one outgoing flow. This ensures we don't break the process.
 
+Check out the Demo on [Github Pages](https://marstamm.github.io/bpmn-js-move-to-subprocess/).
+
 ## Usage 
 
 Import it as a module into your bpmn-js application:
