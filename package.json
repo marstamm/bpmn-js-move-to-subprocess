@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "start": "parcel serve ./demo/index.html --dist-dir demo/dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "keywords": [],
   "author": "Martin Stamm <github@martin-stamm.de>",
