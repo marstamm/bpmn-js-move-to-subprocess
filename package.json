@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "A bpmn-js extension to move selected elements to a subprocess",
   "main": "index.js",
+  "targets": {
+    "main": false
+  },
   "files": [
     "lib/"
   ],
@@ -11,6 +14,7 @@
 		"url": "https://github.com/marstamm/bpmn-js-move-to-subprocess"
 	},
   "scripts": {
+    "build:demo": "parcel build ./demo/index.html --dist-dir demo/dist",
     "start": "parcel serve ./demo/index.html --dist-dir demo/dist",
     "test": "echo \"Error: no test specified\""
   },
